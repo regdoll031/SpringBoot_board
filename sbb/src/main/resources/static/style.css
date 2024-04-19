@@ -1,0 +1,14 @@
+textarea {
+    width:100%;
+    font-size: 30px;
+    height: 13.25rem;
+}
+
+input[type=submit] {
+    margin-top:10px;
+}
+
+h1 {
+	color:blue;
+	text-align: center;
+}

@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>아이디</th>
+            <th>이름</th>
+			<th>나이</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="list : ${test2_list}">
+            <td th:text="${list.id}"></td>
+            <td th:text="${list.name}"></td>
+			<td th:text="${list.age}"></td>
+        </tr>
+    </tbody>
+</table>
